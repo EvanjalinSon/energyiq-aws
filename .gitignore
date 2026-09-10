@@ -1,0 +1,22 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform variables - may contain sensitive values
+*.tfvars
+*.tfvars.json
+
+# Terraform plans
+*.tfplan
+
+# Lambda build/cache files
+__pycache__/
+*.pyc
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
